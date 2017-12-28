@@ -1,0 +1,9 @@
+@import url('bootstrap.min.css');
+@import url('theme.min.css');
+@import url('plugin.min.css');
+@import url('bootstrap.min.css');
+@import url('theme.min.css');
+
+.modal-dialog{
+    max-width: 100% !important;
+}

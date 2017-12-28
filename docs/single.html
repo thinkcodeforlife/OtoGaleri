@@ -1,0 +1,730 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <meta name="keywords" content="eğitim, bilgisayar, yazılım, HTML, PHP, CSS" />
+    <meta name="description" content="Bilişim Konusunda En Kapsamlı Web Sitesi" />
+    <meta name="author" content="Volkan Korkmaz, Adnan Erdoğan" />
+    <meta name="robots" content="index; follow" />
+    <meta name="copyright" content="(c) 2014 egitimkanalim.com Tüm Hakları Saklıdır." />
+    <meta name="designer" content="A & V Yazılım" />
+    <meta name="generator" content="Brackets, Sublime Text" />
+    <meta name="publisher" content="Eğitim Kanalım" />
+    <meta name="reply-to" content="info@egitimkanalim.com" />
+    <title>Galeri Şafak | Bursa 2.el oto, 2.el oto otomatik vites, sahibinden 2.el araç</title>
+    <!--Style File-->
+    <link href="css/style.css" rel="stylesheet">
+    <!--PrettyPhoto CSS-->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <!--Jquery JS-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <!--Font-Awesome CSS-->
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <!--PrettyPhoto JS-->
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <!--PrettyPhoto JS-->
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            $("area[rel^='prettyPhoto']").prettyPhoto();
+
+            $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({
+                animation_speed: 'normal',
+                theme: 'light_square',
+                slideshow: 5000,
+                autoplay_slideshow: true
+            });
+            $(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({
+                animation_speed: 'fast',
+                slideshow: 10000,
+                hideflash: true
+            });
+
+            $("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+                custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+                changepicturecallback: function() {
+                    initialize();
+                }
+            });
+
+            $("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+                custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+                changepicturecallback: function() {
+                    _bsap.exec();
+                }
+            });
+        });
+
+    </script>
+    <!--Bootstrap CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--Smartmenu CSS-->
+    <link href="css/smartmenus.bootstrap-4.css" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="bayrak.png" />
+</head>
+
+<body>
+    <div class="container">
+        <header id="header" class="mt-4">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <div class="logo"><img class="img-fluid" src="images/logo.png" alt="Galeri Şafak"></div>
+                </div>
+                <!--. close col-lg-5 col-md-5 col-sm-5 col-xs-5-->
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 d-xs-none d-none d-lg-block d-md-block d-sm-block">
+                    <p class="float-left"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Barış Mh. İzmir Yolu No : 310 - Nilüfer / BURSA</p>
+                    <p class="float-right"><i class="fa fa-phone-square mr-2" aria-hidden="true"></i>0 224 443 03 30</p>
+                    <div class="clearfix"></div>
+                    <p class="float-left"><i class="fa fa-envelope mr-2" aria-hidden="true"></i>info@safakgaleri.com</p>
+                    <p class="float-right"><i class="fa fa-fax mr-2" aria-hidden="true"></i>0 224 443 70 30</p>
+                </div>
+                <!--. close col-lg-5 col-md-5 col-sm-5 col-xs-5-->
+            </div>
+            <!--. close row-->
+        </header>
+        <!-- /header -->
+
+        <!-- PANEL VE LOGOLAR -->
+        <div class="panel my-4">
+            <div class="logos">
+                <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                    <a href="#"><span><img src="images/logo/audi.png" alt="AUDI"></span><p>AUDI</p></a>
+                    <a href="#"><span><img src="images/logo/bmw.png" alt="BMW"></span><p>BMW</p></a>
+                    <a href="#"><span><img src="images/logo/chevrolet.png" alt="CHEVROLET"></span><p>CHEVROLET</p></a>
+                    <a href="#"><span><img src="images/logo/citroen.png" alt="CITROEN"></span><p>CITROEN</p></a>
+                    <a href="#"><span><img src="images/logo/daihatsu.png" alt="DAIHATSU"></span><p>DAIHATSU</p></a>
+                    <a href="#"><span><img src="images/logo/fiat.png" alt="FIAT"></span><p>FIAT</p></a>
+                    <a href="#"><span><img src="images/logo/ford.png" alt="FORD"></span><p>FORD</p></a>
+                    <a href="#"><span><img src="images/logo/honda.png" alt="HONDA"></span><p>HONDA</p></a>
+                    <a href="#"><span><img src="images/logo/hyundai.png" alt="HYUNDAI"></span><p>HYUNDAI</p></a>
+                    <a href="#"><span><img src="images/logo/kia.png" alt="KIA"></span><p>KIA</p></a>
+                    <a href="#"><span><img src="images/logo/lancia.png" alt="LANCIA"></span><p>LANCIA</p></a>
+                    <a href="#"><span><img src="images/logo/landrover.png" alt="LAND ROVER"></span><p>LAND ROVER</p></a>
+                    <a href="#"><span><img src="images/logo/mercedes.png" alt="MERCEDES"></span><p>MERCEDES</p></a>
+                    <a href="#"><span><img src="images/logo/nissan.png" alt="NISSAN"></span><p>NISSAN</p></a>
+                    <a href="#"><span><img src="images/logo/opel.png" alt="OPEL"></span><p>OPEL</p></a>
+                    <a href="#"><span><img src="images/logo/peugeot.png" alt="PEUGEOT"></span><p>PEUGEOT</p></a>
+                    <a href="#"><span><img src="images/logo/range-rover.png" alt="RANGE ROVER"></span><p>RANGE ROVER</p></a>
+                    <a href="#"><span><img src="images/logo/renault.png" alt="RENAULT"></span><p>RENAULT</p></a>
+                    <a href="#"><span><img src="images/logo/seat.png" alt="SEAT"></span><p>SEAT</p></a>
+                    <a href="#"><span><img src="images/logo/suzuki.png" alt="SUZUKI"></span><p>SUZUKI</p></a>
+                    <a href="#"><span><img src="images/logo/toyota.png" alt="TOYOTA"></span><p>TOYOTA</p></a>
+                    <a href="#"><span><img src="images/logo/volkswagen.png" alt="VOLKSWAGEN"></span><p>VOLKSWAGEN</p></a>
+                    <a href="#"><span><img src="images/logo/mitsubishi.png" alt="MITSUBISHI"></span><p>MITSUBISHI</p></a>
+                    <a href="#"><span><img src="images/logo/skoda.png" alt="SCODA"></span><p>SCODA</p></a>
+                </marquee>
+            </div>
+            <!--logos sonu-->
+        </div>
+        <!--panel close-->
+        <!-- PANEL VE LOGOLAR -->
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded mb-4">
+            <a class="navbar-brand" href="index.html">Şafak Galeri</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <!-- Left nav -->
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#">Araçlarımız</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Otomobil</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Sedan</a></li>
+                                    <li><a class="dropdown-item" href="#">Station Wagon</a></li>
+                                    <li><a class="dropdown-item" href="#">Coupe</a></li>
+                                    <li><a class="dropdown-item" href="#">Cabrio</a></li>
+                                    <li><a class="dropdown-item" href="#">Hatchback</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Arazi Aracı</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Pick-up</a></li>
+                                    <li><a class="dropdown-item" href="#">Station Wagon</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#">Ticari Araçlar</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Van / Panelvan</a></li>
+                            <li><a class="dropdown-item" href="#">Minibüs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="linkler.html">Linkler</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Motorlu Taşıtlar Vergi Dairesi</a></li>
+                            <li><a class="dropdown-item" href="#">Araç Sorgulama</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                </ul>
+
+                <!-- Right nav -->
+                <form class="form-inline">
+                    <input type="text" class="form-control" placeholder="Arama Yap" name="">
+                    <span class="input-group-btn"><button class="btn btn-success">Ara</button></span>
+                    <button class="btn btn-outline-success m-2">Detaylı Ara</button>
+                </form>
+            </div>
+        </nav>
+
+        <section>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="images">
+                        <a class="img-fluid" href="images/big/01.JPG" rel="prettyPhoto[gallery1]" class="big" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/big/01.JPG" /></a>
+                        <ul class="gallery clearfix">
+                            <li><a href="images/big/01.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/01.JPG" /></a></li>
+
+                            <li><a href="images/big/02.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/02.JPG" /></a></li>
+
+                            <li><a href="images/big/03.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/03.JPG" /></a></li>
+
+                            <li><a href="images/big/04.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/04.JPG" /></a></li>
+
+                            <li><a href="images/big/05.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/05.JPG" /></a></li>
+
+                            <li><a href="images/big/06.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/06.JPG" /></a></li>
+
+                            <li><a href="images/big/07.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/07.JPG" /></a></li>
+
+                            <li><a href="images/big/08.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/08.JPG" /></a></li>
+
+                            <li><a href="images/big/09.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/09.JPG" /></a></li>
+
+                            <li><a href="images/big/10.JPG" rel="prettyPhoto[gallery1]" class="small" title="Audi A3 1.6 TDI Sport Back Attraction S-Tronic"><img class="img-fluid img-thumbnail" src="images/small/10.JPG" /></a></li>
+                        </ul>
+                    </div>
+                    <!--imagess sonu-->
+                </div>
+                <!-- . close col-sm-6 -->
+                <div class="col-sm-6">
+                    <div id="detail">
+                        <h1 class="mb-4">2012 Model Audi A3 1.6 TDI S.Back Attractıon S-Tronic</h1>
+                        <dl>
+                            <dt>Fiyat</dt>
+                            <dd>89.750 TL.</dd>
+
+                            <dt>Marka</dt>
+                            <dd>Land Rover</dd>
+
+                            <dt>Seri</dt>
+                            <dd>II 2.2 TD4 GS Premıum</dd>
+
+                            <dt>Model</dt>
+                            <dd>Freelander</dd>
+
+                            <dt>Yıl</dt>
+                            <dd>2009 Model</dd>
+
+                            <dt>Yakıt</dt>
+                            <dd>Dizel</dd>
+
+                            <dt>Vites</dt>
+                            <dd>Otomatik</dd>
+
+                            <dt>Km</dt>
+                            <dd>125000 Km.</dd>
+
+                            <dt>Renk</dt>
+                            <dd>Gri</dd>
+
+                            <dt>Kasa Tipi</dt>
+                            <dd>SUV</dd>
+
+                            <dt>Motor Hacmi</dt>
+                            <dd>2200 cm<sup>3</sup></dd>
+
+                            <dt>Motor Gücü</dt>
+                            <dd>160 HP</dd>
+
+                            <dt>Çekiş</dt>
+                            <dd>Önden Çekiş</dd>
+
+                            <dt>Garanti</dt>
+                            <dd>Evet</dd>
+
+                        </dl>
+                    </div>
+                    <!-- # close detail -->
+                </div>
+                <!-- . close col-sm-6 -->
+
+            </div>
+            <!-- row close-->
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="info1">Araç <b>Detayı</b></h2>
+                    <div class="info">
+                        <h4>
+                            <p>2009 Model Land Rover Freelander II 2.2 TD4 GS Premium</p>
+                        </h4>
+                        <h5>
+                            <p>AKSESUARLAR</p>
+                        </h5>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>CD & MP3 ÇALAR</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>U.K. MERKEZİ KİLİT</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>HİDROLİK DİREKSİYON</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>FONKSİYONEL DERİ DİREKSİYON</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>SÜRÜCÜ AİRBAG</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>YOLCU AİRBAG</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>YAN AİRBAG</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ELEKTRİKLİ 4 CAM</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ELEKTRİKLİ AYNALAR</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ELEKTRİKLİ KATLANIR AYNALAR</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ISITMALI AYNALAR</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ÇİFT YÖNLÜ DİJİTAL KLİMA</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ABS</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ESP</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ALAŞIM JANT</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>KARARAN DİKİZ AYNASI</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>FAR & YAĞMUR SENSÖRÜ</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>PARK SENSÖRÜ</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>Bİ-XENON FARLAR</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ÖN SİS FARLAR</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>ÖN KOL DAYAMA</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>YOL BİLGİSAYARI</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>GÜNDÜZ LED FARLAR</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>FAR YIKAMA</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>HIZ SABİTLEYİCİ</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>İSOFİX</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>AUX</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>EBD</p>
+                        </h6>
+                        <h6>
+                            <p><i class="fa fa-check mr-2" aria-hidden="true"></i>YOKUŞ KALKIŞ DESTEĞİ</p>
+                        </h6>
+                        <div class="col-sm-12 text text-center">
+                            <p>GALERİ ŞAFAK OTOMOTİV BÜNYESİNDE BULUNAN SERVİS,SİGORTA, ANLAŞMALI BANKA VE KOÇFİNANS KREDİLERİNDEN UYGUN OLANAKLARLA YARARLANABİLİRSİNİZ...</p>
+                        </div>
+                        <!-- . close col-sm-12 -->
+                    </div>
+                    <!-- . close info -->
+                </div>
+                <!-- . close col-sm-12 -->
+            </div>
+            <!-- . close row -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="info2">Donanım <b>Özellikleri</b></h2>
+                    <div class="info">
+                        <h3 class="first">Güvenlik</h3>
+                        <label class="passive">1.2 tekna</label>
+
+                        <label class="active">ABS</label>
+
+                        <label class="passive">ASR</label>
+
+                        <label class="active">ESP/VSA</label>
+
+                        <label class="passive">Airmatic</label>
+
+                        <label class="passive">EDL</label>
+
+                        <label class="active">EBD</label>
+
+                        <label class="passive">TCS</label>
+
+                        <label class="passive">BAS</label>
+
+                        <label class="passive">Distronic</label>
+
+                        <label class="passive">Yokuş Kalkış Desteği</label>
+
+                        <label class="passive">Gece Görüş</label>
+
+                        <label class="passive">Şeritten Ayrılma İkazı</label>
+
+                        <label class="passive">Şerit Değiştirme Yardımcısı</label>
+
+                        <label class="active">Hava Yastığı (Sürücü)</label>
+
+                        <label class="active">Hava Yastığı (Yolcu)</label>
+
+                        <label class="active">Hava Yastığı (Yan)</label>
+
+                        <label class="passive">Hava Yastığı (Diz)</label>
+
+                        <label class="passive">Hava Yastığı (Perde)</label>
+
+                        <label class="passive">Hava Yastığı (Tavan)</label>
+
+                        <label class="passive">Lastik Arıza Göstergesi</label>
+
+                        <label class="passive">Yorgunluk Tespit Sistemi</label>
+
+                        <label class="passive">Isofix</label>
+
+                        <label class="passive">Alarm</label>
+
+                        <label class="active">Merkezi Kilit</label>
+
+                        <label class="active">Immobilizer</label>
+
+                        <h3>İç Donanım</h3>
+
+                        <label class="passive">Deri Koltuk</label>
+
+                        <label class="passive">Kumaş Koltuk</label>
+
+                        <label class="passive">Deri / Kumaş Koltuk</label>
+
+                        <label class="active">Elektrikli Ön Camlar</label>
+
+                        <label class="passive">Elektrikli Arka Camlar</label>
+
+                        <label class="active">Klima (Analog)</label>
+
+                        <label class="passive">Klima (Dijital)</label>
+
+                        <label class="active">Otm. Kararan Dikiz Aynası</label>
+
+                        <label class="passive">Ön Kol Dayama</label>
+
+                        <label class="passive">Arka Kol Dayama</label>
+
+                        <label class="passive">Anahtarsız Giriş ve Çalıştırma</label>
+
+                        <label class="passive">6 İleri Vites</label>
+
+                        <label class="active">Hidrolik Direksiyon</label>
+
+                        <label class="active">Fonksiyonel Direksiyon</label>
+
+                        <label class="passive">Ayarlanabilir Direksiyon</label>
+
+                        <label class="passive">Deri Direksiyon</label>
+
+                        <label class="passive">Ahşap Direksiyon</label>
+
+                        <label class="passive">Isıtmalı Direksiyon</label>
+
+                        <label class="passive">Koltuklar (Elektrikli)</label>
+
+                        <label class="passive">Koltuklar (Hafızalı)</label>
+
+                        <label class="passive">Koltuklar (Katlanır)</label>
+
+                        <label class="passive">Koltuklar (Ön Isıtmalı)</label>
+
+                        <label class="passive">Koltuklar (Arka Isıtmalı)</label>
+
+                        <label class="passive">Koltuklar (Soğutmalı)</label>
+
+                        <label class="passive">Hız Sabitleyici</label>
+
+                        <label class="passive">Soğutmalı Torpido</label>
+
+                        <label class="passive">Yol Bilgisayarı</label>
+
+                        <label class="passive">Krom Kaplama</label>
+
+                        <label class="passive">Ahşap Kaplama</label>
+
+                        <label class="passive">Head-up Display</label>
+
+                        <label class="passive">Start / Stop</label>
+
+                        <label class="passive">Geri Görüş Kamerası</label>
+
+                        <label class="passive">Ön Görüş Kamerası</label>
+
+                        <label class="passive">3. Sıra Koltuk</label>
+
+                        <h3>Dış Donanım</h3>
+
+                        <label class="passive">Hardtop</label>
+
+                        <label class="passive">Far (Xenon)</label>
+
+                        <label class="passive">Far (Bi Xenon)</label>
+
+                        <label class="active">Far (Sis)</label>
+
+                        <label class="passive">Far (Adaptif)</label>
+
+                        <label class="passive">Far Gece Sensörü</label>
+
+                        <label class="passive">Far Yıkama</label>
+
+                        <label class="active">Aynalar (Elektrikli)</label>
+
+                        <label class="passive">Aynalar (Otom.Katlanır)</label>
+
+                        <label class="passive">Aynalar (Isıtmalı)</label>
+
+                        <label class="passive">Aynalar (Hafızalı)</label>
+
+                        <label class="passive">Park Sensörü (Arka)</label>
+
+                        <label class="passive">Park Sensörü (Ön)</label>
+
+                        <label class="active">Alaşımlı Jant</label>
+
+                        <label class="passive">Sunroof</label>
+
+                        <label class="passive">Panoramik Cam Tavan</label>
+
+                        <label class="passive">Yağmur Sensörü</label>
+
+                        <label class="passive">Arka Cam Buz Çözücü</label>
+
+                        <label class="passive">Panoramik Ön Cam</label>
+
+                        <label class="passive">Romörk Çeki Demiri</label>
+
+                        <h3>Multimedya</h3>
+
+                        <label class="passive">Radyo - Kasetçalar</label>
+
+                        <label class="active">Radyo - CD Çalar</label>
+
+                        <label class="passive">Radyo - MP3 Çalar</label>
+
+                        <label class="passive">TV - Navigasyon</label>
+
+                        <label class="passive">Bluetooth - Telefon</label>
+
+                        <label class="passive">USB / AUX</label>
+
+                        <label class="passive">AUX</label>
+
+                        <label class="passive">iPod Bağlantısı</label>
+
+                        <label class="passive">6+ Hoparlör</label>
+
+                        <label class="passive">CD Değiştirici</label>
+
+                        <label class="passive">Arka Eğlence Paketi</label>
+
+                        <label class="passive">DVD Değiştirici</label>
+
+                    </div>
+                    <!-- . close info -->
+                </div>
+                <!-- . close col-sm-12 -->
+            </div>
+            <!-- . close row -->
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="info3">Expertiz <b>Raporu</b></h2>
+                    <div class="info expertiz">
+                        <img class="img-fluid" src="images/expertiz.jpg" alt="Expertiz Raporu">
+                        <dl>
+                            <dt>1: Ön Kaput</dt>
+                            <dd>Orjinal</dd>
+
+                            <dt>2: Ön Sağ Çamurluk</dt>
+                            <dd>Orjinal</dd>
+
+                            <dt>3: Ön Sağ Kapı</dt>
+                            <dd>Lokal</dd>
+
+                            <dt>4: Arka Sağ Kapı</dt>
+                            <dd>Lokal</dd>
+
+                            <dt>5: Arka Sağ Çamurluk</dt>
+                            <dd>Orjinal</dd>
+
+                            <dt>6: Ön Sol Çamurluk</dt>
+                            <dd>Boyalı</dd>
+
+                            <dt>7: Ön Sol Kapı</dt>
+                            <dd>Orjinal</dd>
+
+                            <dt>8: Arka Sol Kapı</dt>
+                            <dd>Lokal</dd>
+
+                            <dt>9: Arka Sol Çamurluk</dt>
+                            <dd>Orjinal</dd>
+
+                            <dt>10: Tavan</dt>
+                            <dd>Orjinal</dd>
+
+                            <dt>11: Arka Bagaj Kapı</dt>
+                            <dd>Boyalı</dd>
+                        </dl>
+                    </div>
+                    <!-- . close info -->
+                </div>
+                <!-- . close col-sm-12 -->
+            </div>
+            <!-- . close row -->
+
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm justify-content-end mr-3">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+                    </li>
+                    <!-- 1 aktif yapılacak arkaplan ve hover verilecek css yazıldı -->
+                    <li class="page-item aktif"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+    </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Pagination -->
+
+
+
+        </section>
+        <div id="topcontrol" title="Sayfa Başına Dön" style="position: fixed; bottom: 25px; right: 25px; opacity: 1; cursor: pointer;"><a href="javascript:;"></a>
+            <img src="images/top.png" class="img-fluid"></div>
+        <footer class="my-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <img src="images/footer_logo.png" alt="Galeri Şafak" class="img-fluid">
+                </div>
+                <!-- . close col-md-3 col-sm-3 col-xs-3-->
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                    <h5>
+                        <p class="float-left ml-4 mt-3">SAYFALARIMIZ</p>
+                    </h5>
+                    <hr width="96%" size="4" color="#838B8B" class="mt-5" />
+                </div>
+                <!-- . close col-md-9 col-sm-9 col-xs-9-->
+            </div>
+            <!--. close row-->
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                      <div id="socialfooter">
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Bizi Facebook'ta Takip Edin"><i class="fa fa-facebook rounded"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Bizi Twitter'da Takip Edin"><i class="fa fa-twitter rounded"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Bizi Google'da Takip Edin"><i class="fa fa-google-plus rounded"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Bizi İnstagram'da Takip Edin"><i class="fa fa-instagram rounded"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Listeyi RSS İle Al"><i class="fa fa-rss-square rounded"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-9 mt-0">
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <small>2017 | Copright &copy; | Tasarım : A&V Yazılım | <a href="https://www.egitimkanalim.com" target="_blank">www.egitimkanalim.com</a></small>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /container close-->
+    
+    
+    <!-- JS dosyalarının çalışıp çalışmadığının kontrolü -->
+    <script src="js/popper.min.js"></script>
+    <!--Bootstrap JS-->
+    <script src="js/bootstrap.js"></script>
+    <!-- SmartMenus jQuery JS -->
+    <script src="js/jquery.smartmenus.js"></script>
+    <!-- SmartMenus jQuery Bootstrap Addon -->
+    <script src="js/jquery.smartmenus.bootstrap-4.js"></script>
+    <!-- Bu tooltipler sayesinde js kodlarının çalışıp çalışmadığını anlayabiliriz.. -->
+    <script>
+        // Init tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+    </script>
+    <!-- Sayfa Başına Dönme Butonu JS -->
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) /* Sayfa ne kadar aşağı kayarsa buton görünsün. 100 sayısı = Kaydırma çubuğunun piksel konumu. Bu sayı değiştirilebilir. */
+
+                $("#topcontrol").fadeIn(500); /* // Yukarı çık butonu ne kadar hızla ortaya çıksın. 500 milisaniye = 0,5 saniye. Bu sayı değiştirilebilir. */
+            else
+                $("#topcontrol").fadeOut(500); /* Yukarı çık butonu ne kadar hızla ortadan kaybolsun. 500 milisaniye = 0,5 saniye. Bu sayı değiştirilebilir. */
+        });
+        $(document).ready(function() {
+            $("#topcontrol").click(function() { /* Yukarı çık butonuna tıklanıldığında aşağıdaki satır çalışır. */
+                $("html, body").animate({
+                    scrollTop: "0"
+                }, 500);
+                /* Sayfa ne kadar hızla en yukarı çıksın.
+                       0 sayısı sayfanın en üstüne çıkılacağını belirtir.
+                       500 sayısı ne kadar hızla çıkılacağını belirtir. 500 milisaniye = 0,5 saniye. Bu sayı değiştirilebilir. */
+                return false;
+            });
+        });
+
+    </script>
+    
+</body>
+
+</html>
